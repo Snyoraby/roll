@@ -16,7 +16,7 @@ client.on('ready', async() => {
 var server = "894597075285712957"; 
 var channel = "894973029208178759";
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('s1 $hunt gods ')
+    client.guilds.get(server).channels.get(channel).send('s1 $roll ')
     },45000);
 });
           
